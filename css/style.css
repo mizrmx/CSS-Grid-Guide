@@ -1,2 +1,70 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+body
+{
+    font-family: 'Cutive Mono', monospace;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.td-grid-header
+{
+    width: 100%;
+    height: 120px;
+    background-color: #0CD5AC;
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+}
+
+.td-grid-header a img
+{
+    height: 70px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.td-grid-about
+{
+    width: 100%;
+    height: 215px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item:nth-of-type(1)
+{
+  background-color: bisque;
+}
+
+.item:nth-of-type(2)
+{
+  background-color: darkcyan;
+  color: #FFF;
+  padding: 20px 45px 20px 45px;
+  text-align: justify;
+}
+
+
+.item:nth-of-type(3)
+{
+  background-color: bisque;
+}
+
+.td-grid-concepto
+{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.td-grid-concepto img
+{
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 30px;
+}
