@@ -1,0 +1,35 @@
+body
+{
+  font-size: 16px;
+  color: #414141;
+}
+
+.container
+{
+  display: grid;
+  grid-gap: 5px;
+  height: 100vh;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  align-items: stretch;
+  /* justify-items: start end center stretch; */
+}
+
+.item
+{
+    background-color: chocolate;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+.item:nth-of-type(5)
+{
+  align-self: start;
+  justify-self: start;
+}
+
+.item:nth-of-type(10)
+{
+  align-self: end;
+  justify-self: end;
+}
