@@ -1,0 +1,35 @@
+body
+{
+  font-size: 16px;
+  color: #414141;
+}
+
+.container
+{
+  display: grid;
+  grid-template:  300px 100px 100px /50% 200px 100px;
+  grid-column-gap: 30px;
+  grid-row-gap: 50px;
+  /*grid-gap: filas columnas; */
+  grid-gap: 40px 100px;
+}
+
+.item
+{
+    background-color: chocolate;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+.item:nth-of-type(4)
+{
+  background: blue;
+  overflow: auto;
+  display: grid;
+  grid-template: 50px 50px 50px / 200px 200px 200px;
+}
+
+.item .item
+{
+  background: yellow;
+}
