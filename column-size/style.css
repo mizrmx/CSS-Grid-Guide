@@ -1,0 +1,39 @@
+body
+{
+    font-size: 16px;
+    color: #414141;
+}
+
+.container
+{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 10px;
+  height: 100vh;
+}
+
+.item
+{
+    background-color: chocolate;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+.item:nth-of-type(1)
+{
+  background: blue;
+  overflow: auto;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.item:nth-of-type(8)
+{
+  grid-column: 1 / -1;
+}
+
+.item:nth-of-type(7)
+{
+  grid-column: 2 / 4;
+}
