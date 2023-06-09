@@ -1,0 +1,45 @@
+body
+{
+    font-size: 16px;
+    color: #414141;
+}
+
+.container
+
+{
+    display: grid;
+    grid-template: 100px 1fr 150px/ 200px 1fr;
+    grid-gap: 11px;
+    height: 100vh;
+    grid-template-areas: "header header"
+                         "contenido contenido"
+                         "fotos fotos"
+                         "footer footer";
+}
+
+.item
+{
+    background-color: chocolate;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+.header
+{
+    grid-area: header;
+}
+
+.contenido
+{
+    grid-area: contenido;
+}
+
+.fotos
+{
+    grid-area: fotos;
+}
+
+.footer
+{
+    grid-area: footer;
+}

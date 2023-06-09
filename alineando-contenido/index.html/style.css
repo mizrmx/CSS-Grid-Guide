@@ -1,0 +1,23 @@
+body
+{
+    font-size: 16px;
+    color: #414141;
+}
+
+.container
+{
+    display: grid;
+    grid-gap: 5px;
+    height: 100vh;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(4, 100px);
+    justify-content: space-between;
+    align-content: center;
+}
+
+.item
+{
+    background-color: chocolate;
+    padding: 10px;
+    border: 1px solid blue;
+}

@@ -16,6 +16,10 @@ body
     background-color: #0CD5AC;
     display: grid;
     grid-template-columns: 40% 20% 40%;
+    /*grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-template-columns: 40% 20% 40%; */
 }
 
 .td-grid-header a img
@@ -46,7 +50,6 @@ body
   padding: 20px 45px 20px 45px;
   text-align: justify;
 }
-
 
 .item:nth-of-type(3)
 {
