@@ -6,7 +6,7 @@
 
 En este repositorio vas a encontrar el contenido que se uso para las clases de CSS Grid. Se agregron dos secciones nuevas, la de recursos y la del challenge
 
-## Recursos
+## Recursos para seguir aprendiendo GRID
 * [CSS Trick](https://css-tricks.com/snippets/css/complete-guide-grid/)
 * [La gran guía](https://raidboxes.io/es/blog/webdesign-development/css-grid-layout/)
 * [Learn CSS](https://web.dev/i18n/es/learn/css/grid/)
