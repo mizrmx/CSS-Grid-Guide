@@ -69,7 +69,18 @@ body
   width: 90%;
   height: 300px;
   object-fit: cover;
-  margin-top: 30px;
+  margin-top: 50px;
+}
+
+.td-grid-list
+{
+  width: 70%;
+  margin-top: 50px;
+}
+
+.td-grid-list li 
+{
+  margin-bottom: 15px;
 }
 
 .td-grid-guia
@@ -78,6 +89,8 @@ body
   height: 100px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  grid-gap: 30px;
+  padding-top: 30px;
 }
 
 .td-grid-btn-guia
@@ -112,4 +125,20 @@ body
 .td-grid-btn-guia p:hover
 {
   color: #414141;
+}
+
+@media (min-width: 1085px)
+{
+  .td-grid-about
+  {
+    height: 350px;
+  }
+}
+
+@media (min-width: 970px)
+{
+  .td-grid-concepto
+  {
+    height: 530px;
+  }
 }
